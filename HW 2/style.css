@@ -1,0 +1,79 @@
+blockquote {
+    margin: 0;
+}
+
+blockquote p {
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
+
+.text-box h3:first-child {
+    color: pink;
+}
+
+#greycol {
+    color:grey;
+}
+
+.text-box div p {
+    color: red;
+}
+
+.text-box p:nth-last-child(2)  {
+    color: green;
+}
+
+.yellow {
+    color: yellow;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.bg-box {
+    background-color: green;
+    width: 1000px;
+    height: 500px; 
+    margin: auto;
+}
+.house {
+    background: url(dom.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.top {
+    background-image: url(lamp.png);
+    background-repeat:repeat-x; 
+    background-size: 30px;
+    height: 500px; 
+}
+.left {
+    background-image: url(kirpi.png);
+    background-repeat: repeat-y;
+    background-size: 20px;
+    height: 500px; 
+}
+.bottom {
+    background-image: url(ot.png);
+    background-repeat: repeat-x; 
+    background-size: 140px; 
+    height: 500px; 
+    background-position: bottom;
+}
+.right {
+    background-image: url(donut.png); 
+    background-repeat: repeat-y; 
+    background-size: 20px; 
+    height: 500px;
+    background-position: right ;}
